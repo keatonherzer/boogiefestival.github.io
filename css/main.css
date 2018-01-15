@@ -219,8 +219,11 @@ body {
   margin: 1rem;
 }
 
-.footer_links li img {
+.footer_links li img.img-square {
   max-height: 40px;
+}
+.footer_links li img.img-rectangle {
+  max-height: 20px;
 }
 
 .bottom_logo {
