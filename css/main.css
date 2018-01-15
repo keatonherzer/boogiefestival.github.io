@@ -311,15 +311,15 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 1.25rem;
-  font-family: BebasNeueReg, sans-serif;
+  font-family: BebasNeueBold, sans-serif;
   margin: 0;
 }
 
 .subheader_medium {
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  font-family: BebasNeueReg, sans-serif;
-  font-size: 1.15rem;
+  font-family: BebasNeueBold, sans-serif;
+  font-size: 1.25rem;
   margin: 0;
 }
 
