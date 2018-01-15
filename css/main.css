@@ -119,15 +119,15 @@ body {
 }
 
 .main_logo {
-  margin: 0 1.5rem;
+  margin: 0 1rem;
 }
 
 .main_logo img {
-  max-width: 280px;
+  max-width: 330px;
 }
 
 .money_left img {
-  max-width: 80px;
+  max-width: 100px;
 }
 
 .money_left img:hover {
@@ -144,7 +144,7 @@ body {
 }
 
 .money_right img {
-  max-width: 80px;
+  max-width: 100px;
 }
 
 .money_right img:hover {
@@ -194,7 +194,7 @@ body {
 /* ===== Footer section ===== */
 .footer {
   padding: 2rem;
-  margin-top: -2rem;
+  margin-top: -4rem;
   background-color: #00A451;
 }
 
@@ -253,6 +253,7 @@ body {
   letter-spacing: 1.5px;
   text-shadow: 1px 2px 0 #FFFFFF;
   margin:0;
+  margin-bottom: .5rem;
 }
 
 .headline_container {
