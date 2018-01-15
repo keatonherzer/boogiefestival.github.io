@@ -309,17 +309,17 @@ body {
 
 .subheader {
   text-transform: uppercase;
-  letter-spacing: 3.5px;
+  letter-spacing: 1.5px;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-family: BebasNeueReg, sans-serif;
   margin: 0;
 }
 
 .subheader_medium {
   text-transform: uppercase;
-  letter-spacing: 3.5px;
+  letter-spacing: 1.5px;
+  font-family: BebasNeueReg, sans-serif;
   font-size: 1.15rem;
-  font-weight: bold;
   margin: 0;
 }
 
@@ -335,6 +335,7 @@ body {
 
 .info_text {
   text-transform: uppercase;
+  font-family: BebasNeueReg, sans-serif;
   letter-spacing: 2px;
   margin-bottom: 2rem;
 }
@@ -377,7 +378,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1.25px;
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 .button:hover {
