@@ -205,6 +205,15 @@ body {
   margin: 0 1.25rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .headline_container {
+    margin-bottom: 0;
+  }
+  .headline_names {
+    margin: 0;
+  }
+}
+
 
 /* ===== Daytime section ===== */
 .divider img {
@@ -240,6 +249,12 @@ body {
 .sub_headline_names li {
   display: inline-block;
   margin: 0 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .sub_headline_container {
+    margin: 0 auto .5rem;
+  }
 }
 
 
@@ -359,6 +374,9 @@ body {
   }
   .sub_headline_text {
     font-size: 2rem;
+  }
+  .info_text {
+    margin: 0 auto 2rem;
   }
   .subheadline_text_medium {
     font-size: 2rem;
