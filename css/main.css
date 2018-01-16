@@ -229,7 +229,7 @@ body {
   text-shadow: 2px 3px 0 #000000;
   text-transform: uppercase;
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 .sub_headline_names {
@@ -287,7 +287,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .footer {
-    margin-top: -2.75rem;
+    margin-top: -2.65rem;
   }
   .bottom_logo {
     max-width: 280px;
@@ -357,8 +357,8 @@ body {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
   }
-  .subheadline_text_medium {
-    font-size: 1rem;
+  .sub_headline_text {
+    font-size: 2rem;
   }
   .subheadline_text_medium {
     font-size: 2rem;
