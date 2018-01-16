@@ -123,11 +123,11 @@ body {
 }
 
 .main_logo img {
-  max-width: 330px;
+  max-width: 400px;
 }
 
 .money_left img {
-  max-width: 100px;
+  max-width: 125px;
 }
 
 .money_left img:hover {
@@ -144,7 +144,7 @@ body {
 }
 
 .money_right img {
-  max-width: 100px;
+  max-width: 125px;
 }
 
 .money_right img:hover {
@@ -180,6 +180,32 @@ body {
   text-align: center;
 }
 
+.headline_container {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.headline_text {
+  color: #F12F35;
+  letter-spacing: 1.5px;
+  text-shadow: 5px 5px 0 #000000;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 5.5rem;
+}
+
+.headline_names {
+  list-style-type: none;
+  padding: 0;
+}
+
+.headline_names li {
+  display: inline-block;
+  margin: 0 1.25rem;
+}
+
+
 /* ===== Daytime section ===== */
 .divider img {
   width: 90%;
@@ -190,6 +216,32 @@ body {
   padding: 2rem 0;
   text-align: center;
 }
+
+.sub_headline_container {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.sub_headline_text {
+  color: #F12F35;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 3px 0 #000000;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.sub_headline_names {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sub_headline_names li {
+  display: inline-block;
+  margin: 0 1.25rem;
+}
+
 
 /* ===== Footer section ===== */
 .footer {
@@ -234,6 +286,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .footer {
+    margin-top: -2.75rem;
+  }
   .bottom_logo {
     max-width: 280px;
   }
@@ -253,57 +308,6 @@ body {
   letter-spacing: 1.5px;
   text-shadow: 1px 2px 0 #FFFFFF;
   margin:0;
-  margin-bottom: .5rem;
-}
-
-.headline_container {
-  max-width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-
-.sub_headline_container {
-  max-width: 80%;
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-.headline_text {
-  color: #F12F35;
-  letter-spacing: 1.5px;
-  text-shadow: 5px 5px 0 #000000;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 5.5rem;
-}
-
-.sub_headline_text {
-  color: #F12F35;
-  letter-spacing: 1.5px;
-  text-shadow: 2px 3px 0 #000000;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-.headline_names {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sub_headline_names {
-  list-style-type: none;
-  padding: 0;
-}
-
-.headline_names li {
-  display: inline-block;
-  margin: 0 1.25rem;
-}
-
-.sub_headline_names li {
-  display: inline-block;
-  margin: 0 1.25rem;
 }
 
 .subheader {
@@ -311,7 +315,7 @@ body {
   letter-spacing: 1.5px;
   font-size: 1.25rem;
   font-family: Oswald, sans-serif;
-  margin: 0;
+  margin: 0.5rem auto;
 }
 
 .subheader_medium {
@@ -352,6 +356,9 @@ body {
   .tournament_header {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+  }
+  .subheadline_text_medium {
+    font-size: 1rem;
   }
   .subheadline_text_medium {
     font-size: 2rem;
