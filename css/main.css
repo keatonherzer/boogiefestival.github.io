@@ -104,6 +104,7 @@ body {
   display: block;
   margin: 0 auto;
   height: 100%;
+  max-width: 80%
 }
 
 /* ===== Header section ===== */
@@ -158,6 +159,19 @@ body {
   -o-transform: rotate(-25deg);
   -ms-transform: rotate(-25deg);
   transform: rotate(-25deg);
+}
+
+.subheader_top {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.info_text_red {
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #F12F35;
 }
 
 @media only screen and (max-width: 768px) {
