@@ -107,6 +107,12 @@ body {
   max-width: 80%
 }
 
+@media only screen and (max-width: 768px){
+  .container {
+    max-width: 100%;
+  }
+}
+
 /* ===== Header section ===== */
 .header_top {
   display: block;
@@ -190,7 +196,7 @@ body {
 
 /* ===== Nighttime section ===== */
 .nighttime-container {
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -233,7 +239,7 @@ body {
 .divider img {
   width: 90%;
   display: block;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 .daytime-container {
   padding: 2rem 0;
@@ -243,7 +249,7 @@ body {
 .sub_headline_container {
   max-width: 80%;
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto .5rem;
 }
 
 .sub_headline_text {
@@ -353,7 +359,7 @@ body {
   letter-spacing: 1.5px;
   font-size: 1.25rem;
   font-family: Oswald, sans-serif;
-  margin: 0.5rem auto;
+  margin: 0.25rem auto;
 }
 
 .subheader_medium {
@@ -379,6 +385,7 @@ body {
   font-family: Oswald, sans-serif;
   letter-spacing: 2px;
   margin-bottom: 2rem;
+  margin-top: 0;
 }
 
 .tournament_header {
@@ -397,6 +404,9 @@ body {
   }
   .sub_headline_text {
     font-size: 2rem;
+  }
+  .sub_headline_text_lg {
+    font-size: 2.5rem;
   }
   .info_text {
     margin: 0 auto 2rem;
