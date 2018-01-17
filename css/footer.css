@@ -1,5 +1,11 @@
 /* ===== Footer section ===== */
 .footer_bg {
-  width: 100%;
+  width: 110%;
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_bg {
+    width: 125%;
+  }
 }
