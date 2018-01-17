@@ -23,10 +23,6 @@ h6 {
   font-size: 1rem;
 }
 
-a {
-  text-decoration: none;
-}
-
 .red {
   color: #F12F35;
 }
@@ -79,5 +75,29 @@ a {
 
 
 @media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 4.5rem;
+    text-shadow: 4px 5px 0 #000000 !important;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.15rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
 
 }
