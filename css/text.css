@@ -1,0 +1,83 @@
+h1 {
+  font-size: 5.5rem;
+  text-shadow: 4px 5px 0 #000000 !important;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+h3 {
+  font-size: 2.75rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.red {
+  color: #F12F35;
+}
+
+.space-bottom {
+  margin-bottom: 1.25rem !important;
+}
+
+.space-top {
+  margin-top: 1rem !important;
+}
+
+.info_text {
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 2.5px;
+  margin: 0;
+}
+
+.main_subheader {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 1.55rem;
+  font-family: Oswald, sans-serif;
+  margin: 0.5rem auto;
+}
+
+.content_header {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 2px 0 #FFFFFF;
+  margin: 0 0 0.5rem 0;
+}
+
+.headline_text {
+  color: #F12F35;
+  letter-spacing: 1.5px;
+  text-shadow: 3px 4px 0 #000000;
+  text-transform: uppercase;
+  margin: 0 0 .5rem 0;
+}
+
+.tournament_header {
+  font-family: Yellowtail, sans-serif;
+  font-size: 4rem;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}

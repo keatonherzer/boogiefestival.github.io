@@ -104,7 +104,7 @@ body {
   display: block;
   margin: 0 auto;
   height: 100%;
-  max-width: 80%
+  max-width: 80%;
 }
 
 @media only screen and (max-width: 768px){
@@ -114,7 +114,7 @@ body {
 }
 
 /* ===== Header section ===== */
-.header_top {
+.header{
   display: block;
   width: 100%;
   margin: 1rem auto;
@@ -130,11 +130,11 @@ body {
 }
 
 .main_logo img {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .money_left img {
-  max-width: 125px;
+  max-width: 150px;
 }
 
 .money_left img:hover {
@@ -151,7 +151,7 @@ body {
 }
 
 .money_right img {
-  max-width: 125px;
+  max-width: 150px;
 }
 
 .money_right img:hover {
@@ -167,17 +167,9 @@ body {
   transform: rotate(-25deg);
 }
 
-.subheader_top {
+.subheader {
   text-align: center;
   padding: 1rem 0;
-}
-
-.info_text_red {
-  text-transform: uppercase;
-  font-family: Oswald, sans-serif;
-  letter-spacing: 2px;
-  margin: 0;
-  color: #F12F35;
 }
 
 @media only screen and (max-width: 768px) {
@@ -194,235 +186,26 @@ body {
   }
 }
 
-/* ===== Nighttime section ===== */
-.nighttime-container {
+.content_container {
   padding: 1rem 0;
   text-align: center;
 }
 
-.headline_container {
-  max-width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-
-.headline_text {
-  color: #F12F35;
-  letter-spacing: 1.5px;
-  text-shadow: 5px 5px 0 #000000;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 5.5rem;
-}
-
-.headline_names {
+.headliners {
   list-style-type: none;
   padding: 0;
+  margin: 0.5rem 0;
 }
 
-.headline_names li {
+.headliners li {
   display: inline-block;
   margin: 0 1.25rem;
 }
 
-@media only screen and (max-width: 768px) {
-  .headline_container {
-    margin-bottom: 0;
-  }
-  .headline_names {
-    margin: 0;
-  }
-}
-
-
-/* ===== Daytime section ===== */
 .divider img {
   width: 90%;
   display: block;
   margin: 1rem auto;
-}
-.daytime-container {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.sub_headline_container {
-  max-width: 80%;
-  display: block;
-  margin: 0 auto .5rem;
-}
-
-.sub_headline_text {
-  color: #F12F35;
-  letter-spacing: 1.5px;
-  text-shadow: 2px 3px 0 #000000;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 2rem;
-}
-
-.sub_headline_text_lg {
-  color: #F12F35;
-  letter-spacing: 1.5px;
-  text-shadow: 2px 3px 0 #000000;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 3.5rem;
-}
-
-.sub_headline_names {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sub_headline_names li {
-  display: inline-block;
-  margin: 0 1.25rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .sub_headline_container {
-    margin: 0 auto .5rem;
-  }
-}
-
-
-/* ===== Footer section ===== */
-.footer {
-  padding: 2rem;
-  margin-top: -4rem;
-  background-color: #00A451;
-}
-
-.footer_bg {
-  width: 100%;
-  display: block;
-}
-
-.footer_links_container {
-  display: block;
-  margin: 0 auto;
-}
-
-.footer_links {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-}
-
-.footer_links li {
-  display: inline-block;
-  margin: 1rem;
-}
-
-.footer_links li img.img-square {
-  max-height: 40px;
-}
-.footer_links li img.img-rectangle {
-  max-height: 20px;
-}
-
-.bottom_logo {
-  text-align: center;
-  max-width: 380px;
-  display: block;
-  margin: 0 auto;
-}
-
-@media only screen and (max-width: 768px) {
-  .footer {
-    margin-top: -2.65rem;
-  }
-  .bottom_logo {
-    max-width: 280px;
-  }
-  .footer_links li {
-    margin: 0.5rem;
-  }
-  .footer_links li img {
-    max-height: 30px;
-  }
-}
-
-/* ===== Text Styles ===== */
-.section_header {
-  font-weight: bold;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  text-shadow: 1px 2px 0 #FFFFFF;
-  margin:0;
-}
-
-.subheader {
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 1.25rem;
-  font-family: Oswald, sans-serif;
-  margin: 0.25rem auto;
-}
-
-.subheader_medium {
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-family: Oswald, sans-serif;
-  font-size: 1.25rem;
-  margin: 0;
-}
-
-.subheadline_text_medium {
-  color: #F12F35;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.5rem;
-  text-shadow: 2px 2px 0 #000000;
-  margin: 0;
-}
-
-.info_text {
-  text-transform: uppercase;
-  font-family: Oswald, sans-serif;
-  letter-spacing: 2px;
-  margin-bottom: 2rem;
-  margin-top: 0;
-}
-
-.tournament_header {
-  font-family: Yellowtail, sans-serif;
-  font-size: 4rem;
-  margin: 0;
-}
-
-@media only screen and (max-width: 768px) {
-  .headline_text {
-    font-size: 4.5rem;
-  }
-  .tournament_header {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .sub_headline_text {
-    font-size: 2rem;
-  }
-  .sub_headline_text_lg {
-    font-size: 2.5rem;
-  }
-  .info_text {
-    margin: 0 auto 2rem;
-  }
-  .subheadline_text_medium {
-    font-size: 2rem;
-  }
-  .subheader_medium {
-    font-size: 1rem;
-  }
-  .headline_names li h1 {
-    font-size: 3.75rem;
-  }
-  .section_header {
-    font-size: 2rem;
-  }
 }
 
 /* ===== Button Styles ===== */
@@ -434,8 +217,9 @@ body {
   color: #F12F35;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 1.25px;
-  font-size: 1.15rem;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .button:hover {
