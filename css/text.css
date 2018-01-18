@@ -39,6 +39,10 @@ h6 {
   margin-top: 2rem !important;
 }
 
+.small-space-top {
+  margin-top: 1rem !important;
+}
+
 .info_text {
   text-transform: uppercase;
   font-family: Oswald, sans-serif;
@@ -103,6 +107,9 @@ h6 {
 
   h6 {
     font-size: 1rem;
+  }
+  .tournament_header {
+    font-size: 1.75rem;
   }
 
 }
