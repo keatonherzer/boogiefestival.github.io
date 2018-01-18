@@ -208,6 +208,30 @@ body {
   margin: 0 auto;
 }
 
+.sold-out {
+  position: relative;
+  width: 100%;
+}
+
+.sold-out-stamp {
+  position: absolute;
+  top: -10px;
+  left: 30%;
+  text-align: center;
+  opacity: .8;
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sold-out-stamp {
+    max-width: 350px;
+    top: 0;
+    left: 10%;
+  }
+}
+
+
+
 /* ===== Button Styles ===== */
 .button {
   border: 2px solid #F12F35;
