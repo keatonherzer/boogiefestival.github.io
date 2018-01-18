@@ -1,6 +1,7 @@
 /* ===== Footer section ===== */
 .footer_bg {
   width: 100%;
+  margin-top: -3rem;
   display: block;
 }
 
