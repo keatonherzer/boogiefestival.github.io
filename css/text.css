@@ -50,6 +50,10 @@ h6 {
   margin: 0;
 }
 
+.bottom-text {
+  margin-top: 0.5rem;
+}
+
 .main_subheader {
   text-transform: uppercase;
   letter-spacing: 2.5px;
